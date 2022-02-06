@@ -12,18 +12,25 @@ body{font-family: Roboto,sans-serif;}
 /*Logo*/
 
 .logo1{
-    color: #000000;
+    color:var(--accent-color) ;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;}
 
 .logo2 { 
-    color:var(--accent-color);
+    color:#000000;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;}
+
+.logo3 { 
+        color:#ffffff;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;}
 
 /*site-nav*/
 
@@ -50,7 +57,7 @@ ul{list-style: none;}
     background-color: var(--background-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
